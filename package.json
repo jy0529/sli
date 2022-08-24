@@ -1,0 +1,20 @@
+{
+  "name": "sli",
+  "version": "0.0.1",
+  "description": "Made command-line app easy by JSON.",
+  "main": "src/index.ts",
+  "author": "Jy <1041207253@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.8",
+    "jest": "^28.1.3",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.8",
+    "typescript": "^4.7.4"
+  }
+}
